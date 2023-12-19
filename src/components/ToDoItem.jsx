@@ -1,8 +1,6 @@
 
 const ToDoItem = (todo) => {
-  return (
-    <div>{todo.task}</div>
-  )
+  return <li className="list-group-item list-group-item-primary">{todo.task}</li>;
 }
 
 export default ToDoItem
